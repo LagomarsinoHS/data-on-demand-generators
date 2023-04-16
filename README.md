@@ -1,6 +1,6 @@
 ## Introducción
 
-    Cuando estamos trabajando con mucha data, es normal que el proceso se bloquee o sea lento debido a que tenemos que tener toda la información antes de pasar al siguiente proceso. Aqui, se verán 2 formas de hacer esto
+Cuando estamos trabajando con mucha data, es normal que el proceso se bloquee o sea lento debido a que tenemos que tener toda la información antes de pasar al siguiente proceso. Aqui, se verán 2 formas de hacer esto
 
 1. La clasica, que es obtener toda la data y al final comenzar a mostrarla o trabajarla
 2. Data-on-demand, es decir, mientras avanzo voy consiguiendo información
@@ -10,7 +10,7 @@ Crearemos 3 archivos
 
 `Server1.js`
 
-    Este archivo simulará ser una API que obtendrá información pasandole el nombre de un producto, el resultado será un objeto
+Este archivo simulará ser una API que obtendrá información pasandole el nombre de un producto, el resultado será un objeto
     
 ```javascript
 {
@@ -22,11 +22,11 @@ Crearemos 3 archivos
 
 `Server2.js`
     
-    Este archivo simulará ser otra API que hara un POST a la API con la información del producto anteriormente recibido
+Este archivo simulará ser otra API que hara un POST a la API con la información del producto anteriormente recibido
 
 `Client.js`
 
-    Este archivo simulará ser el usuario navegando por la página. Crearemos una BD falsa con 1000 registros e intentaremos realizar las peticiones
+Este archivo simulará ser el usuario navegando por la página. Crearemos una BD falsa con 1000 registros e intentaremos realizar las peticiones
 
 
 ## Resultados
